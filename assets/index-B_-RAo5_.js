@@ -1,1 +1,0 @@
-import{r as s,g as u,a4 as e}from"./index-vCgDPCTR.js";var c=e.useId||(()=>{}),f=0;function x(t){const[a,r]=s.useState(c());return u(()=>{t||r(o=>o??String(f++))},[t]),t||(a?`radix-${a}`:"")}export{x as u};
