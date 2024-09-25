@@ -10,5 +10,5 @@ export default defineConfig({
       '@': path.resolve(__dirname, './src'),
     },
   },
-   base: 'https://RogerHiguerey.github.io/home'
+   base: 'https://RogerHiguerey.github.io/dashboard'
 })
