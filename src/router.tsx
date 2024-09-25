@@ -147,6 +147,10 @@ const router = createBrowserRouter([
 
   // Fallback 404 route
   { path: '*', Component: NotFoundError },
-])
+],
+{
+  basename: "/dashboard", // Ajusta esto al subdirectorio donde esté alojada la aplicación en GitHub
+}
+)
 
 export default router
